@@ -28,18 +28,18 @@ class Directory extends Component {
                     linkUrl: 'shop/sweet'
                   },
                   {
-                    title: 'womens',
+                    title: 'women',
                     imageUrl: 'https://images.pexels.com/photos/4659794/pexels-photo-4659794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
                     size: 'large',
                     id: 4,
-                    linkUrl: 'shop/womens'
+                    linkUrl: 'shop/women'
                   },
                   {
-                    title: 'mens',
+                    title: 'men',
                     imageUrl: 'https://images.pexels.com/photos/1895015/pexels-photo-1895015.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
                     size: 'large',
                     id: 5,
-                    linkUrl: 'shop/mens'
+                    linkUrl: 'shop/men'
                   }
             ]
         }
