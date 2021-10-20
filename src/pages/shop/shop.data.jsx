@@ -1,173 +1,166 @@
 const SHOP_DATA = [
     {
       id: 1,
-      title: 'Hats',
-      routeName: 'hats',
+      title: 'Floral',
+      routeName: 'floral',
       items: [
         {
           id: 1,
-          name: 'Brown Brim',
-          imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+          name: 'Chanel Beige',
+          imageUrl: 'https://fimgs.net/photogram/p1200/al/6b/aAgAomqZ3Brr8UZ0.jpg',
           // imageUrl: "/images/shop-img/hats/brown-brim.png",
-          price: 25
+          price: 240
         },
         {
           id: 2,
-          name: 'Blue Beanie',
-          imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+          name: 'Gardenia Chanel',
+          imageUrl: 'https://fimgs.net/photogram/p1200/lo/gi/VqGOLcPMqGCIbtCx.jpg',
           // imageUrl: "/images/shop-img/hats/blue-beanie.png",
-          price: 18
+          price: 200
         },
         {
           id: 3,
-          name: 'Brown Cowboy',
-          imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+          name: 'Gabrielle Chanel',
+          imageUrl: 'https://fimgs.net/photogram/p1200/rh/c4/nHrimnSkSYzkEYKf.jpg',
           // imageUrl: "/images/shop-img/hats/brown-cowboy.png",
-          price: 35
+          price: 82
         },
         {
           id: 4,
-          name: 'Grey Brim',
-          imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+          name: 'Allure Chanel',
+          imageUrl: 'https://fimgs.net/photogram/p1200/sa/fo/1S6zmDwY70SQqDjE.jpg',
           // imageUrl: "/images/shop-img/hats/grey-brim.png",
-          price: 25
+          price: 108
         },
         {
           id: 5,
-          name: 'Green Beanie',
-          imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+          name: 'Pure Poison Dior',
+          imageUrl: 'https://fimgs.net/photogram/p1200/am/of/5hFOhyxzojJLEJZl.jpg',
           // imageUrl: "/images/shop-img/hats/green-beanie.png",
-          price: 18
+          price: 138
         },
         {
           id: 6,
-          name: 'Palm Tree Cap',
-          imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
+          name: 'Do Son Diptyque',
+          imageUrl: 'https://fimgs.net/photogram/p1200/pm/mo/4mzGrKHeXvZ1npGQ.jpg',
           // imageUrl: "/images/shop-img/hats/palm-tree-cap.png",
-          price: 14
+          price: 145
         },
         {
           id: 7,
-          name: 'Red Beanie',
-          imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
+          name: 'Good Girl Gone Bad By Kilian',
+          imageUrl: 'https://fimgs.net/mdimg/secundar/o.69414.jpg',
           // imageUrl: "/images/shop-img/hats/red-beanie.png",
-          price: 18
+          price: 225
         },
         {
           id: 8,
-          name: 'Wolf Cap',
-          imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
+          name: 'Love By Kilian',
+          imageUrl: 'https://fimgs.net/mdimg/secundar/o.61364.jpg',
           // imageUrl: "/images/shop-img/hats/wolf-cap.png",
-          price: 14
-        },
-        {
-          id: 9,
-          name: 'Blue Snapback',
-          imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-          // imageUrl: "/images/shop-img/hats/blue-snapback.png",
-          price: 16
+          price: 225
         }
       ]
     },
     {
       id: 2,
-      title: 'Sneakers',
-      routeName: 'sneakers',
+      title: 'Fresh',
+      routeName: 'fresh',
       items: [
         {
           id: 10,
-          name: 'Adidas NMD',
-          imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-          price: 220
+          name: 'Virgin Island Water Creed',
+          imageUrl: 'https://fimgs.net/photogram/p1200/8e/hy/PJWQpIM3t7lz3QIC.jpg',
+          price: 320
         },
         {
           id: 11,
-          name: 'Adidas Yeezy',
-          imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+          name: 'Artisan Pure',
+          imageUrl: 'https://fimgs.net/photogram/p1200/rw/j3/JpIJ0rOaHtYaHuHT.jpg',
           // imageUrl: "/images/shop-img/sneakers/yeezy.png",
-          price: 280
+          price: 89
         },
         {
           id: 12,
-          name: 'Black Converse',
-          imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+          name: 'Afternoon Swim LV',
+          imageUrl: 'https://www.disneyrollergirl.net/wp-content/uploads/Louis-Vuitton-cologne-perfume-Afternoon-Swim.jpg',
           // imageUrl: "/images/shop-img/sneakers/black-converse.png",
-          price: 110
+          price: 189
         },
         {
           id: 13,
-          name: 'Nike White AirForce',
-          imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+          name: 'Eau Fraiche Dior',
+          imageUrl: 'https://fimgs.net/photogram/p1200/yp/fd/0pO0Gzt7KE2cAfti.jpg',
           // imageUrl: "/images/shop-img/sneakers/white-nike-high-tops.png",
           price: 160
         },
         {
           id: 14,
-          name: 'Nike Red High Tops',
+          name: 'Cool Water',
           imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
           // imageUrl: "/images/shop-img/sneakers/nikes-red.png",
           price: 160
         },
         {
           id: 15,
-          name: 'Nike Brown High Tops',
-          imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
+          name: 'Orange Blossom',
+          imageUrl: 'https://fimgs.net/photogram/p1200/dh/dw/SmERPPef3NKQnxCT.jpg',
           // imageUrl: "/images/shop-img/sneakers/nike-brown.png",
-          price: 160
+          price: 144
         },
         {
           id: 16,
-          name: 'Air Jordan Limited',
-          imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
+          name: 'Diptyque Fleur de Peau',
+          imageUrl: 'https://fimgs.net/photogram/p1200/nj/sf/cfvX5zAq3L6NxZI8.jpg',
           // imageUrl: "/images/shop-img/sneakers/nike-funky.png",
           price: 190
         },
         {
           id: 17,
-          name: 'Timberlands',
-          imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
+          name: 'Bergamote 22',
+          imageUrl: 'https://fimgs.net/photogram/p1200/ot/z4/aVDYj9NkXUPQRevW.jpg',
           // imageUrl: "/images/shop-img/sneakers/timberlands.png",
-          price: 200
+          price: 235
         }
       ]
     },
     {
       id: 3,
-      title: 'Jackets',
-      routeName: 'jackets',
+      title: 'Sweet',
+      routeName: 'sweet',
       items: [
         {
           id: 18,
-          name: 'Black Jean Shearling',
-          imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+          name: 'Lost Cherry',
+          imageUrl: 'https://fimgs.net/photogram/p1200/q1/18/i0dyPyUdOrRNZ7dX.jpg',
           // imageUrl: "/images/shop-img/jackets/black-shearling.png",
-          price: 125
+          price: 225
         },
         {
           id: 19,
-          name: 'Blue Jean Jacket',
-          imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+          name: 'Armani Si',
+          imageUrl: 'https://fimgs.net/himg/o.88565.jpg',
           // imageUrl: "/images/shop-img/jackets/blue-jean-jacket.png",
           price: 90
         },
         {
           id: 20,
-          name: 'Grey Jean Jacket',
-          imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+          name: 'Dolce Garden',
+          imageUrl: 'https://www.sephora.com/productimages/product/p429971-av-05-zoom.jpg?imwidth=612',
           // imageUrl: "/images/shop-img/jackets/grey-jean-jacket.png",
           price: 90
         },
         {
           id: 21,
-          name: 'Brown Shearling',
-          imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+          name: 'YSL Black Opium',
+          imageUrl: 'https://fimgs.net/photogram/p1200/me/rz/QtxuwGqCznbCDy2g.jpg',
           // imageUrl: "/images/shop-img/jackets/brown-shearling.png",
-          price: 165
+          price: 95
         },
         {
           id: 22,
-          name: 'Tan Trench',
-          imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+          name: 'Gold Knight By Kilian',
+          imageUrl: 'https://fimgs.net/photogram/p1200/nb/hv/mPQekI7I8pQQfLKs.jpg',
           // imageUrl: "/images/shop-img/jackets/brown-trench.png",
           price: 185
         }
@@ -175,106 +168,99 @@ const SHOP_DATA = [
     },
     {
       id: 4,
-      title: 'Womens',
-      routeName: 'womens',
+      title: 'Women',
+      routeName: 'women',
       items: [
         {
           id: 23,
-          name: 'Blue Tanktop',
-          imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+          name: 'Coco Mademoiselle',
+          imageUrl: 'https://www.chanel.com/us/img/q_auto,fl_lossy,dpr_2,f_jpg/w_960/prd-emea/sys-master/content/he0/h3f/8826501464094-CCM-INTENSE-pdp-ed-push-patchouli.jpg',
           // imageUrl: "/images/shop-img/womens/blue-tank.png",
-          price: 25
+          price: 108
         },
         {
           id: 24,
-          name: 'Floral Blouse',
-          imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+          name: 'Baccarat Rouge 540',
+          imageUrl: 'https://fimgs.net/himg/o.evQaUU1dzMZ.jpg',
           // imageUrl: "/images/shop-img/womens/floral-blouse.png",
-          price: 20
+          price: 325
         },
         {
           id: 25,
-          name: 'Floral Dress',
-          imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+          name: 'Byredo Gypsy Water',
+          imageUrl: 'https://makeupandbeautyblog.com/wp-content/uploads/2020/06/byredo-gypsy-water.jpg',
           // imageUrl: "/images/shop-img/womens/floral-skirt.png",
-          price: 80
+          price: 180
         },
         {
           id: 26,
-          name: 'Red Dots Dress',
-          imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+          name: 'D&G Light Blue',
+          imageUrl: 'https://fimgs.net/photogram/p1200/nr/mv/pgevXHiGGKmlxIdN.jpg',
           // imageUrl: "/images/shop-img/womens/red-polka-dot-dress.png",
           price: 80
         },
         {
           id: 27,
-          name: 'Striped Sweater',
-          imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+          name: 'Narciso Rodriguez For Her',
+          imageUrl: 'https://fimgs.net/photogram/p1200/wi/ke/ZNZCxgAVgg5erYkV.jpg',
           // imageUrl: "/images/shop-img/womens/striped-sweater.png",
-          price: 45
+          price: 125
         },
         {
           id: 28,
-          name: 'Yellow Track Suit',
-          imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+          name: 'Chloe Love Story',
+          imageUrl: 'https://fimgs.net/photogram/p1200/vf/t3/aYAiV0JUfn3U1IJw.jpg',
           // imageUrl: "/images/shop-img/womens/yellow-track-suit.png",
           price: 135
-        },
-        {
-          id: 29,
-          name: 'White Blouse',
-          imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-          // imageUrl: "/images/shop-img/womens/white-vest.png",
-          price: 20
         }
       ]
     },
     {
       id: 5,
-      title: 'Mens',
-      routeName: 'mens',
+      title: 'Men',
+      routeName: 'men',
       items: [
         {
           id: 30,
-          name: 'Camo Down Vest',
-          imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+          name: 'Dior Homme',
+          imageUrl: 'https://fimgs.net/photogram/p1200/rp/0f/eQsx5A5fO00L6SkP.jpg',
           // imageUrl: "/images/shop-img/mens/camo-vest.png",
-          price: 325
+          price: 125
         },
         {
           id: 31,
-          name: 'Floral T-shirt',
-          imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+          name: ' Roja Parfums Danger',
+          imageUrl: 'https://fimgs.net/photogram/p1200/g1/gi/TPaxMfeFiQ8rlVMS.jpg',
           // imageUrl: "/images/shop-img/mens/floral-shirt.png",
-          price: 20
+          price: 290
         },
         {
           id: 32,
-          name: 'Black & White Longsleeve',
-          imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+          name: 'LV Imagination',
+          imageUrl: 'https://fimgs.net/mdimg/secundar/o.82302.jpg',
           // imageUrl: "/images/shop-img/mens/long-sleeve.png",
-          price: 25
+          price: 250
         },
         {
           id: 33,
-          name: 'Pink T-shirt',
-          imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+          name: 'Oud Wood',
+          imageUrl: 'https://fimgs.net/photogram/p1200/vx/jb/bfvEo0ZHpOt17FDt.jpg',
           // imageUrl: "/images/shop-img/mens/pink-shirt.png",
-          price: 25
+          price: 250
         },
         {
           id: 34,
-          name: 'Jean Long Sleeve',
-          imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
+          name: 'Polo Cologne',
+          imageUrl: 'https://piimages.parfumo.de/9/8/148272_f422c64263c874b471eda86cdbcec6d3_polo-cologne-intense.jpg',
           // imageUrl: "/images/shop-img/mens/roll-up-jean-shirt.png",
-          price: 40
+          price: 90
         },
         {
           id: 35,
-          name: 'Burgundy T-shirt',
-          imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+          name: 'YSL Y',
+          imageUrl: 'https://fimgs.net/mdimg/secundar/o.55671.jpg',
           // imageUrl: "/images/shop-img/mens/polka-dot-shirt.png",
-          price: 25
+          price: 99
         }
       ]
     }
